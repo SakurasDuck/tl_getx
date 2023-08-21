@@ -1,0 +1,84 @@
+# tests are useless
+
+
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Visual Studio Code related
+.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+.dart_tool/
+.flutter-plugins
+.packages
+.pub-cache/
+.pub/
+pubspec.lock
+.metadata
+/build/
+web/
+windows/
+.flutter-plugins-dependencies
+
+# custom rule
+/*_sample/.gitignore
+/*_sample/lib/generated_plugin_registrant.dart
+/*_sample/web/**
+/*_sample/windows/**
+
+/example/.gitignore
+/example/lib/generated_plugin_registrant.dart
+/example/web/**
+/example/windows/**
+
+
+# Web related
+lib/generated_plugin_registrant.dart
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+
+# android custom rule
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+**/android/settings.gradle
+**/android/gradle
+**/android/.gradle
+**/android/app/src/debug
+**/android/app/src/profile
+**/android/app/src/main/**
+!**/android/app/src/main/AndroidManifest.xml
+
+# ios custom rule
+/ios/**
+/*_sample/ios/**
+/*_sample/analysis_options.yaml
+/example/ios/**
+/example/analysis_options.yaml
+
+# Exceptions to above rules.
+!**/ios/**/default.mode1v3
+!**/ios/**/default.mode2v3
+!**/ios/**/default.pbxuser
+!**/ios/**/default.perspectivev3
+!/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
